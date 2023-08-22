@@ -1,0 +1,1979 @@
+/*Todas As Paginas*/
+
+/*Fundo e Imagem de Fundo*/
+
+body{
+  background-image: url(../img/fundo.jpg);
+  background-repeat: 2;
+  background-size: 100%;
+  background-color:	#E0EFEC
+
+}
+
+/*Caixinha de Texto*/
+ 
+#caixa{
+
+  position:fixed;
+  top:25%;
+  left:0%;
+  border:2px #ccc solid;
+  border-radius: 50px;
+  min-width: 800px;
+  max-width: 800px;
+  height:250px;
+  margin: 90px;
+  box-shadow: 0px 0px 5px black;
+
+}
+
+.form-row {
+
+  min-width: 800px;
+  max-width:800px;
+  margin-bottom:10px;
+  
+}
+
+/*Titulo 1*/
+
+h1 {
+
+  height: 10px;
+  text-align: justify;
+  text-indent: 150px ;
+  min-width: 1300px;
+  max-width: 200px;
+  font: normal 50px/0px sans-serif;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  box-shadow: 1px 0px 1px white #dedede;
+
+}
+
+/*Titulo 2*/
+
+h2 {
+
+  height: 0px;
+  text-align: justify;
+  text-indent: 200px ;
+  min-width: 900px;
+  max-width: 200px;
+  font: normal 25px/0px sans-serif;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  box-shadow: 1px 0px 1px white #dedede
+
+}
+
+/*Letras*/
+
+/*Letras dos Botões*/
+
+a {
+  
+  color: white;     
+  font-size: 25px;
+  font-family: Calibri;
+  text-decoration: none;  
+     
+}
+
+/*Letras dos Avisos*/
+
+#avisos {
+  
+  color: black;     
+  font-size: 25px;
+  font-family: Calibri;
+  text-decoration: none;  
+     
+}
+
+/*Botão Voltar*/
+
+#voltar{
+
+  border-radius: 12px;
+  padding: 8px 24px;
+  font-size: 12px;
+  font: normal 2px/20px sans-serif;
+  position: absolute;
+  text-align: center;
+  top: 220px;
+  left: 320px;  
+  width: 150px;  
+  background-color: #708090;
+  color: black;
+  border: 2px solid 	black; /* red */
+  transition-duration: 0.4s;
+
+}
+
+#voltar:hover {
+
+  background-color:	#A23234; /* salmon*/
+  color: white; 
+
+}
+
+/*Acaba Aqui*/
+/*  ---//--- */
+/*Pagina Principal*/
+
+/*Botão da Pagina de Indicadores de Contrato*/
+  
+#contrato {
+
+  border-radius: 12px;
+  padding: 10px 24px;
+  font-size: 12px;
+  font: normal 2px/20px sans-serif;
+  position: absolute;
+  text-align: center;
+  top: 30px;
+  left: 30px;  
+  width: 350px;  
+  background-color: #00984C;
+  color: #A23234;
+  border: 2px solid 	#FFFFFF; /* red */
+  transition-duration: 0.4s;
+    
+}
+
+#contrato:hover{
+
+  background-color:	#A23234; /* salmon*/
+  color: white;
+  
+}
+
+
+
+/*Botão da Pagina de Indicadores Assistenciais*/
+
+#assistencial{
+
+  border-radius: 12px;
+  padding: 10px 24px;
+  font-size: 12px;
+  font: normal 2px/20px sans-serif;
+  position: absolute;
+  text-align: center;
+  top: 85px;
+  left: 225px;  
+  width: 350px;  
+  background-color: #00984C;
+  color: #A23234;
+  border: 2px solid 	#FFFFFF; /* red */
+  transition-duration: 0.4s;
+
+}
+
+#assistencial:hover {
+
+  background-color:	#A23234; /* salmon*/
+  color: white; 
+
+}
+
+/*Botão da Pagina de Indicadores Complementares*/
+
+#complementar{
+
+  border-radius: 12px;
+  padding: 10px 24px;
+  font-size: 12px;
+  font: normal 2px/20px sans-serif;
+  position: absolute;
+  text-align: center;
+  top: 140px;
+  left: 410px;  
+  width: 350px;  
+  background-color: #00984C;
+  color: #A23234;
+  border: 2px solid 	#FFFFFF; /* red */
+  transition-duration: 0.4s;
+
+}
+
+#complementar:hover {
+
+  background-color:	#A23234; /* salmon*/
+  color: white; 
+
+}
+
+#sobre{
+
+  border-radius: 12px;
+  padding: 8px 24px;
+  font-size: 12px;
+  font: normal 2px/20px sans-serif;
+  position: absolute;
+  text-align: center;
+  top: 220px;
+  left: 310px;  
+  width: 189px;  
+  background-color: #708090;
+  color: black;
+  border: 2px solid 	black; /* red */
+  transition-duration: 0.4s;
+
+}
+
+#sobre:hover {
+
+  background-color:	#A23234; /* salmon*/
+  color: white; 
+
+}
+
+/*Acaba Aqui*/
+/*  ---//--- */
+/*Pagina 2 Contratos*/
+
+/*Botão de Indicadores de Contrato Monitoramento*/
+
+#qualitativo{
+
+  border-radius: 12px;
+  padding: 10px 24px;
+  font-size: 12px;
+  font: normal 2px/20px sans-serif;
+  position: absolute;
+  text-align: center;
+  top: 30px;
+  left: 30px;  
+  width: 350px;  
+  background-color: #00984C;
+  color: #A23234;
+  border: 2px solid 	#FFFFFF; /* red */
+  transition-duration: 0.4s;
+
+}
+
+#qualitativo:hover {
+
+background-color:	#A23234; /* salmon*/
+color: white; 
+
+}
+
+/*Botão de Indicadores de Contrato Qualitativo*/
+
+#quantitativo{
+
+  border-radius: 12px;
+  padding: 10px 24px;
+  font-size: 12px;
+  font: normal 2px/20px sans-serif;
+  position: absolute;
+  text-align: center;
+  top: 85px;
+  left: 225px;  
+  width: 350px;  
+  background-color: #00984C;
+  color: #A23234;
+  border: 2px solid 	#FFFFFF; /* red */
+  transition-duration: 0.4s;
+
+}
+
+#quantitativo:hover {
+
+background-color:	#A23234; /* salmon*/
+color: white; 
+
+}
+
+/*Botão de Indicadores de Contrato Quantitativo*/
+
+#monitoramento{
+
+  border-radius: 12px;
+  padding: 10px 24px;
+  font-size: 12px;
+  font: normal 2px/20px sans-serif;
+  position: absolute;
+  text-align: center;
+  top: 140px;
+  left: 410px;  
+  width: 350px;  
+  background-color: #00984C;
+  color: #A23234;
+  border: 2px solid 	#FFFFFF; /* red */
+  transition-duration: 0.4s;
+
+}
+
+#monitoramento:hover {
+
+background-color:	#A23234; /* salmon*/
+color: white; 
+
+}
+
+/*Acaba Aqui*/
+/*  ---//--- */
+/*Pagina 3 Assitencial*/
+
+/*Botão da Pagina de Indicadores de Desenvolvimento Humano*/
+
+#desenvolvimento{
+  
+  border-radius: 12px;
+  padding: 10px 24px;
+  font-size: 12px;
+  font: normal 2px/20px sans-serif;
+  position: absolute;
+  text-align: center;
+  top: 20px;
+  left: 20px; 
+  width: 350px;  
+  background-color: #00984C;
+  color: #A23234;
+  border: 2px solid 	#FFFFFF; /* red */
+  transition-duration: 0.4s;
+
+}
+
+#desenvolvimento:hover {
+
+  background-color:	#A23234; /* salmon*/
+  color: white; 
+
+}
+
+/*Botão da Pagina de Indicadores de Enfermagem*/
+
+#enfermagem{
+
+  border-radius: 12px;
+  padding: 10px 24px;
+  font-size: 12px;
+  font: normal 2px/20px sans-serif;
+  position: absolute;
+  text-align: center;
+  top: 70px;
+  left: 20px;   
+  width: 350px;  
+  background-color: #00984C;
+  color: #A23234;
+  border: 2px solid 	#FFFFFF; /* red */
+  transition-duration: 0.4s;
+
+}
+
+#enfermagem:hover {
+
+  background-color:	#A23234; /* salmon*/
+  color: white; 
+
+}
+
+/*Botão da Pagina de Indicadores de Farmacia*/
+
+#farmacia{
+
+  border-radius: 12px;
+  padding: 10px 24px;
+  font-size: 12px;
+  font: normal 2px/20px sans-serif;
+  position: absolute;
+  text-align: center;
+  top: 120px;
+  left: 20px;   
+  width: 350px;  
+  background-color: #00984C;
+  color: #A23234;
+  border: 2px solid 	#FFFFFF; /* red */
+  transition-duration: 0.4s;
+
+}
+
+#farmacia:hover {
+
+  background-color:	#A23234; /* salmon*/
+  color: white; 
+
+}
+
+/*Botão da Pagina de Indicadores de Odonto*/
+
+#odonto{
+
+  border-radius: 12px;
+  padding: 10px 24px;
+  font-size: 12px;
+  font: normal 2px/20px sans-serif;
+  position: absolute;
+  text-align: center;
+  top: 170px;
+  left: 20px;   
+  width: 350px;  
+  background-color: #00984C;
+  color: #A23234;
+  border: 2px solid 	#FFFFFF; /* red */
+  transition-duration: 0.4s;
+
+}
+
+#odonto:hover {
+
+  background-color:	#A23234; /* salmon*/
+  color: white; 
+
+}
+
+/*Botão da Pagina de Saúde Mental*/
+
+#saudemental{
+
+  border-radius: 12px;
+  padding: 10px 24px;
+  font-size: 12px;
+  font: normal 2px/20px sans-serif;
+  position: absolute;
+  text-align: center;
+  top: 20px;
+  left: 430px;  
+  width: 350px;  
+  background-color: #00984C;
+  color: #A23234;
+  border: 2px solid 	#FFFFFF; /* red */
+  transition-duration: 0.4s;
+
+}
+
+#saudemental:hover {
+
+  background-color:	#A23234; /* salmon*/
+  color: white; 
+
+}
+
+/*Botão da Pagina de Indicadores de Programas / AMAE / SADT*/
+
+#programa{
+
+  border-radius: 12px;
+  padding: 10px 24px;
+  font-size: 12px;
+  font: normal 2px/20px sans-serif;
+  position: absolute;
+  text-align: center;
+  top: 70px;
+  left: 430px;  
+  width: 350px;  
+  background-color: #00984C;
+  color: #A23234;
+  border: 2px solid 	#FFFFFF; /* red */
+  transition-duration: 0.4s;
+
+}
+
+#programa:hover {
+  
+  background-color:	#A23234; /* salmon*/
+  color: white; 
+
+}
+
+/*Botão da Pagina de UBS ESF / Mista / AMA 12h*/
+
+#atb{
+
+  border-radius: 12px;
+  padding: 10px 24px;
+  font-size: 12px;
+  font: normal 2px/20px sans-serif;
+  position: absolute;
+  text-align: center;
+  top: 120px;
+  left: 430px;  
+  width: 350px;  
+  background-color: #00984C;
+  color: #A23234;
+  border: 2px solid 	#FFFFFF;
+  transition-duration: 0.4s;
+
+}
+
+#atb:hover {
+
+  background-color:	#A23234; /* salmon*/
+  color: white; 
+
+}
+
+/*Botão da Pagina de Indicadores de Urgência / Emergência / HM*/
+
+#urgeemer{
+
+  border-radius: 12px;
+  padding: 10px 24px;
+  font-size: 12px;
+  font: normal 2px/20px sans-serif;
+  position: absolute;
+  text-align: center;
+  top: 170px;
+  left: 430px;  
+  width: 350px;  
+  background-color: #00984C;
+  color: #A23234;
+  border: 2px solid 	#FFFFFF; /* red */
+  transition-duration: 0.4s;
+
+}
+
+#urgeemer:hover {
+
+  background-color:	#A23234; /* salmon*/
+  color: white; 
+
+}
+
+
+
+/*Acaba Aqui*/
+/*  ---//--- */
+/*Pagina 4 Complementar*/
+
+/*Botão do Indicador de Absenteismo*/
+
+#absenteismo {
+
+  border-radius: 12px;
+  padding: 10px 24px;
+  font-size: 12px;
+  font: normal 2px/20px sans-serif;
+  position: absolute;
+  text-align: center;
+  top: 30px;
+  left: 30px;  
+  width: 350px;  
+  background-color: #00984C;
+  color: #A23234;
+  border: 2px solid 	#FFFFFF; /* red */
+  transition-duration: 0.4s;
+    
+}
+
+#absenteismo:hover{
+
+  background-color:	#A23234; /* salmon*/
+  color: white;
+  
+}
+
+/*Botão do Indicador de Olho na Fila*/
+
+#fila {
+
+  border-radius: 12px;
+  padding: 10px 24px;
+  font-size: 12px;
+  font: normal 2px/20px sans-serif;
+  position: absolute;
+  text-align: center;
+  top: 30px;
+  left: 410px;  
+  width: 350px;  
+  background-color: #00984C;
+  color: #A23234;
+  border: 2px solid 	#FFFFFF; /* red */
+  transition-duration: 0.4s;
+    
+}
+
+#fila:hover{
+
+  background-color:	#A23234; /* salmon*/
+  color: white;
+  
+}
+
+/*Botão da Pagina de Indicador PCR Realizados*/
+
+#pcr {
+
+  border-radius: 12px;
+  padding: 10px 24px;
+  font-size: 12px;
+  font: normal 2px/20px sans-serif;
+  position: absolute;
+  text-align: center;
+  top: 90px;
+  left: 30px;
+  width: 350px;  
+  background-color: #00984C;
+  color: #A23234;
+  border: 2px solid 	#FFFFFF; /* red */
+  transition-duration: 0.4s;
+
+}
+
+#pcr:hover {
+
+  background-color:	#A23234; /* salmon*/
+  color: white; 
+
+}
+
+/*Botão do Indicador de Tempo de Espera*/
+
+#it4d {
+
+  border-radius: 12px;
+  padding: 10px 24px;
+  font-size: 12px;
+  font: normal 2px/20px sans-serif;
+  position: absolute;
+  text-align: center;
+  top: 95px;
+  left: 410px;  
+  width: 350px;  
+  background-color: #00984C;
+  color: #A23234;
+  border: 2px solid 	#FFFFFF; /* red */
+  transition-duration: 0.4s;
+
+}
+
+#it4d:hover {
+
+  background-color:	#A23234; /* salmon*/
+  color: white; 
+
+}
+
+/*Acaba Aqui*/
+/*  ---//--- */
+/*SubPagina 2 Qualitativo*/
+
+/*Caixinha da Pgina Contrato*/
+
+#caixacontrato{
+
+  position:fixed;
+  top:20%;
+  left:0%;
+  border-radius: 50px;
+  border:2px #ccc solid;
+  min-width: 800px;
+  max-width: 800px;
+  height:350px;
+  margin: 90px;
+  box-shadow: 0px 0px 5px black;
+
+}
+
+/*Boltão Voltar*/
+
+#voltar1{
+
+  border-radius: 12px;
+  padding: 8px 24px;
+  font-size: 12px;
+  font: normal 2px/20px sans-serif;
+  position: absolute;
+  text-align: center;
+  top: 320px;
+  left: 320px;  
+  width: 150px;  
+  background-color: #708090;
+  color: black;
+  border: 2px solid 	black; /* red */
+  transition-duration: 0.4s;
+
+}
+
+#voltar1:hover {
+
+  background-color:	#A23234; /* salmon*/
+  color: white; 
+
+}
+
+
+/*Botão de Indicador de Gestão Participativa*/
+
+#q1 {
+  
+  border-radius: 12px;
+  padding: 10px 24px;
+  font-size: 12px;
+  font: normal 2px/20px sans-serif;
+  position: absolute;
+  text-align: center;
+  top: 30px;
+  left: 30px; 
+  width: 350px;  
+  background-color: #00984C;
+  color: #A23234;
+  border: 2px solid 	#FFFFFF; /* red */
+  transition-duration: 0.4s;
+
+}
+
+#q1:hover {
+
+  background-color:	#A23234; /* salmon*/
+  color: white; 
+
+}
+
+/*Botão de Indicador da Ouvidoria*/
+
+#q2 {
+
+  border-radius: 12px;
+  padding: 10px 24px;
+  font-size: 12px;
+  font: normal 2px/20px sans-serif;
+  position: absolute;
+  text-align: center;
+  top: 30px;
+  left: 410px;  
+  width: 350px;  
+  background-color: #00984C;
+  color: #A23234;
+  border: 2px solid 	#FFFFFF; /* red */
+  transition-duration: 0.4s;
+
+}
+
+#q2:hover {
+
+  background-color:	#A23234; /* salmon*/
+  color: white; 
+
+}
+
+/*Botão de Indicador de Registro de Atendimento*/
+
+#q3 {
+  
+  border-radius: 12px;
+  padding: 10px 24px;
+  font-size: 12px;
+  font: normal 2px/20px sans-serif;
+  position: absolute;
+  text-align: center;
+  top: 85px;
+  left: 30px; 
+  width: 350px;  
+  background-color: #A23234;
+  color: #A23234;
+  border: 2px solid 	#FFFFFF; /* red */
+  transition-duration: 0.4s;
+
+}
+
+#q3:hover {
+
+  background-color:	#A23234; /* salmon*/
+  color: white; 
+
+}
+
+/*Botão de Indicador de Saúde da Criança*/
+
+#q4 {
+  
+  border-radius: 12px;
+  padding: 10px 24px;
+  font-size: 12px;
+  font: normal 2px/20px sans-serif;
+  position: absolute;
+  text-align: center;
+  top: 85px;
+  left: 410px; 
+  width: 350px;  
+  background-color: #A23234;
+  color: #A23234;
+  border: 2px solid 	#FFFFFF; /* red */
+  transition-duration: 0.4s;
+
+}
+
+#q4:hover {
+
+  background-color:	#A23234; /* salmon*/
+  color: white; 
+
+}
+
+/*Botão de Indicador de Educação Permanente*/
+
+#q6 {
+  
+  border-radius: 12px;
+  padding: 10px 24px;
+  font-size: 12px;
+  font: normal 2px/20px sans-serif;
+  position: absolute;
+  text-align: center;
+  top: 140px;
+  left: 30px; 
+  width: 350px;  
+  background-color: #A23234;
+  color: #A23234;
+  border: 2px solid 	#FFFFFF; /* red */
+  transition-duration: 0.4s;
+
+}
+
+#q6:hover {
+
+  background-color:	#A23234; /* salmon*/
+  color: white; 
+
+}
+
+/*Botão de Indicador de Saúde da Mulher*/
+
+#q7 {
+  
+  border-radius: 12px;
+  padding: 10px 24px;
+  font-size: 12px;
+  font: normal 2px/20px sans-serif;
+  position: absolute;
+  text-align: center;
+  top: 140px;
+  left: 410px; 
+  width: 350px;  
+  background-color: #00984C;
+  color: #A23234;
+  border: 2px solid 	#FFFFFF; /* red */
+  transition-duration: 0.4s;
+
+}
+
+#q7:hover {
+
+  background-color:	#A23234; /* salmon*/
+  color: white; 
+
+}
+
+/*Botão de Indicador de Violência*/
+
+#q10 {
+  
+  border-radius: 12px;
+  padding: 10px 24px;
+  font-size: 12px;
+  font: normal 2px/20px sans-serif;
+  position: absolute;
+  text-align: center;
+  top: 195px;
+  left: 30px; 
+  width: 350px;  
+  background-color: #A23234;
+  color: #A23234;
+  border: 2px solid 	#FFFFFF; /* red */
+  transition-duration: 0.4s;
+
+}
+
+#q10:hover {
+
+  background-color:	#A23234; /* salmon*/
+  color: white; 
+
+}
+
+/*Botão de Indicador de Vigilância em Saúde*/
+
+#q11 {
+  
+  border-radius: 12px;
+  padding: 10px 24px;
+  font-size: 12px;
+  font: normal 2px/20px sans-serif;
+  position: absolute;
+  text-align: center;
+  top: 195px;
+  left: 410px; 
+  width: 350px;  
+  background-color: #00984C;
+  color: #A23234;
+  border: 2px solid 	#FFFFFF; /* red */
+  transition-duration: 0.4s;
+
+}
+
+#q11:hover {
+
+  background-color:	#A23234; /* salmon*/
+  color: white; 
+
+}
+
+/*Botão de Indicador de Saúde do Idoso*/
+
+#q12 {
+  
+  border-radius: 12px;
+  padding: 10px 24px;
+  font-size: 12px;
+  font: normal 2px/20px sans-serif;
+  position: absolute;
+  text-align: center;
+  top: 250px;
+  left: 30px; 
+  width: 350px;  
+  background-color: #A23234;
+  color: #A23234;
+  border: 2px solid 	#FFFFFF; /* red */
+  transition-duration: 0.4s;
+
+}
+
+#q12:hover {
+
+  background-color:	#A23234; /* salmon*/
+  color: white; 
+
+}
+
+/*Botão de Indicador de Saúde Bocal*/
+
+#q13 {
+  
+  border-radius: 12px;
+  padding: 10px 24px;
+  font-size: 12px;
+  font: normal 2px/20px sans-serif;
+  position: absolute;
+  text-align: center;
+  top: 250px;
+  left: 410px; 
+  width: 350px;  
+  background-color: #00984C;
+  color: #A23234;
+  border: 2px solid 	#FFFFFF; /* red */
+  transition-duration: 0.4s;
+
+}
+
+#q13:hover {
+
+  background-color:	#A23234; /* salmon*/
+  color: white; 
+
+}
+
+/*Acaba Aqui*/
+/*  ---//--- */
+/*SubPagina 2 Quantitativo*/
+
+/*Botão do Indicador de TLP*/
+
+#tlp{
+
+  border-radius: 12px;
+  padding: 10px 24px;
+  font-size: 12px;
+  font: normal 2px/20px sans-serif;
+  position: absolute;
+  text-align: center;
+  top: 50px;
+  left: 100px;  
+  width: 350px;  
+  background-color: #00984C;
+  color: #FFFFFF;
+  border: 2px solid 	#FFFFFF; /* red */
+  transition-duration: 0.4s;
+    
+}
+
+#tlp:hover{
+
+  background-color:	#A23234; /* salmon*/
+  color: white;
+  
+}
+
+/*Botão do Indicador de Produção*/
+
+#producao{
+
+  border-radius: 12px;
+  padding: 10px 24px;
+  font-size: 12px;
+  font: normal 2px/20px sans-serif;
+  position: absolute;
+  text-align: center;
+  top: 130px;
+  left: 300px;  
+  width: 350px;  
+  background-color: #00984C;
+  color: #A23234;
+  border: 2px solid 	#FFFFFF; /* red */
+  transition-duration: 0.4s;
+
+}
+
+#producao:hover {
+
+  background-color:	#A23234; /* salmon*/
+  color: white; 
+
+}
+
+/*Acaba Aqui*/
+/*  ---//--- */
+/*SubPagina 2 Equipe Minima*/
+
+/*Botão de Indicador de TLP*/
+
+#tipo1{
+
+  border-radius: 12px;
+  padding: 10px 24px;
+  font-size: 12px;
+  font: normal 2px/20px sans-serif;
+  position: absolute;
+  text-align: center;
+  top: 50px;
+  left: 100px;  
+  width: 350px;  
+  background-color: #A23234;
+  color: #A23234;
+  border: 2px solid 	#FFFFFF; /* red */
+  transition-duration: 0.4s;
+
+}
+
+#tipo1:hover {
+
+background-color:	#A23234; /* salmon*/
+color: white; 
+
+}
+
+/*Botão de Indicador do Controle de Plantão*/
+
+#tipo2{
+
+  border-radius: 12px;
+  padding: 10px 24px;
+  font-size: 12px;
+  font: normal 2px/20px sans-serif;
+  position: absolute;
+  text-align: center;
+  top: 130px;
+  left: 300px;  
+  width: 350px;  
+  background-color: #00984C;
+  color: #A23234;
+  border: 2px solid 	#FFFFFF; /* red */
+  transition-duration: 0.4s;
+
+}
+
+#tipo2:hover {
+
+background-color:	#A23234; /* salmon*/
+color: white; 
+
+}
+
+/*Acaba Aqui*/
+/*  ---//--- */
+/*SubPagina 2 Monitoramento*/
+
+/*Botão de Indicador de Doenças Não Transmissiveis*/
+
+#m1{
+  
+  border-radius: 12px;
+  padding: 10px 24px;
+  font-size: 12px;
+  font: normal 2px/20px sans-serif;
+  position: absolute;
+  text-align: center;
+  top: 30px;
+  left: 30px; 
+  width: 350px;  
+  background-color: #A23234;
+  color: #A23234;
+  border: 2px solid 	#FFFFFF; /* red */
+  transition-duration: 0.4s;
+
+}
+
+#m1:hover {
+
+  background-color:	#A23234; /* salmon*/
+  color: white; 
+
+}
+
+/*Botão de Indicador da Saúde Bocal*/
+
+#m2 {
+
+  border-radius: 12px;
+  padding: 10px 24px;
+  font-size: 12px;
+  font: normal 2px/20px sans-serif;
+  position: absolute;
+  text-align: center;
+  top: 30px;
+  left: 410px;   
+  width: 350px;  
+  background-color: #00984C;
+  color: #A23234;
+  border: 2px solid 	#FFFFFF; /* red */
+  transition-duration: 0.4s;
+
+}
+
+#m2:hover {
+
+  background-color:	#A23234; /* salmon*/
+  color: white; 
+
+}
+
+/*Botão de Indicador de Saúde da Mulher*/
+
+#m3 {
+
+  border-radius: 12px;
+  padding: 10px 24px;
+  font-size: 12px;
+  font: normal 2px/20px sans-serif;
+  position: absolute;
+  text-align: center;
+  top: 90px;
+  left: 30px;   
+  width: 350px;  
+  background-color: #00984C;
+  color: #A23234;
+  border: 2px solid 	#FFFFFF; /* red */
+  transition-duration: 0.4s;
+
+}
+
+#m3:hover {
+
+  background-color:	#A23234; /* salmon*/
+  color: white; 
+
+}
+
+/*Botão de Indicador de Materno Infantil*/
+
+#m6 {
+
+  border-radius: 12px;
+  padding: 10px 24px;
+  font-size: 12px;
+  font: normal 2px/20px sans-serif;
+  position: absolute;
+  text-align: center;
+  top: 90px;
+  left: 410px;   
+  width: 350px;  
+  background-color: #00984C;
+  color: #A23234;
+  border: 2px solid 	#FFFFFF; /* red */
+  transition-duration: 0.4s;
+
+}
+
+#m6:hover {
+
+  background-color:	#A23234; /* salmon*/
+  color: white; 
+
+}
+
+/*Botão de Indicador de Vigilância em Saúde*/
+
+#m8 {
+
+  border-radius: 12px;
+  padding: 10px 24px;
+  font-size: 12px;
+  font: normal 2px/20px sans-serif;
+  position: absolute;
+  text-align: center;
+  top: 150px;
+  left: 30px;   
+  width: 350px;  
+  background-color: #00984C;
+  color: #A23234;
+  border: 2px solid 	#FFFFFF; /* red */
+  transition-duration: 0.4s;
+
+}
+
+#m8:hover {
+
+  background-color:	#A23234; /* salmon*/
+  color: white; 
+
+}
+
+/*Botão de Indicador de Saúde Mental*/
+
+#m10 {
+
+  border-radius: 12px;
+  padding: 10px 24px;
+  font-size: 12px;
+  font: normal 2px/20px sans-serif;
+  position: absolute;
+  text-align: center;
+  top: 150px;
+  left: 410px;   
+  width: 350px;  
+  background-color: #00984C;
+  color: #A23234;
+  border: 2px solid 	#FFFFFF; /* red */
+  transition-duration: 0.4s;
+
+}
+
+#m10:hover {
+
+  background-color:	#A23234; /* salmon*/
+  color: white; 
+
+}
+
+/*Acaba Aqui*/
+/*  ---//--- */
+/*SubPagina 3 Equipe Plantonistas*/
+
+/*Botão de Controle de Plantão 2022*/
+
+#controle1{
+
+  border-radius: 12px;
+  padding: 10px 24px;
+  font-size: 12px;
+  font: normal 2px/20px sans-serif;
+  position: absolute;
+  text-align: center;
+  top: 50px;
+  left: 100px;  
+  width: 350px;  
+  background-color: #00984C;
+  color: #A23234;
+  border: 2px solid 	#FFFFFF; /* red */
+  transition-duration: 0.4s;
+
+}
+
+#controle1:hover {
+
+background-color:	#A23234; /* salmon*/
+color: white; 
+
+}
+
+/*Botão de Controle de Plantão 2023*/
+
+#controle2{
+
+  border-radius: 12px;
+  padding: 10px 24px;
+  font-size: 12px;
+  font: normal 2px/20px sans-serif;
+  position: absolute;
+  text-align: center;
+  top: 130px;
+  left: 300px;  
+  width: 350px;  
+  background-color: #00984C;
+  color: #A23234;
+  border: 2px solid 	#FFFFFF; /* red */
+  transition-duration: 0.4s;
+
+}
+
+#controle2:hover {
+
+background-color:	#A23234; /* salmon*/
+color: white; 
+
+}
+
+/*Acaba Aqui*/
+/*  ---//--- */
+/*SubPagina 3 Desenvolvimento Humano*/
+
+/*Botão do Indicador de RH Itinerante*/
+
+#itinerante{
+
+  border-radius: 12px;
+  padding: 10px 24px;
+  font-size: 12px;
+  font: normal 2px/20px sans-serif;
+  position: absolute;
+  text-align: center;
+  top: 30px;
+  left: 30px;  
+  width: 350px;  
+  background-color: #00984C;
+  color: #A23234;
+  border: 2px solid 	#FFFFFF; /* red */
+  transition-duration: 0.4s;
+    
+}
+
+#itinerante:hover{
+
+  background-color:	#A23234; /* salmon*/
+  color: white;
+  
+}
+
+#talento{
+
+  border-radius: 12px;
+  padding: 10px 24px;
+  font-size: 12px;
+  font: normal 2px/20px sans-serif;
+  position: absolute;
+  text-align: center;
+  top: 85px;
+  left: 220px;  
+  width: 350px;  
+  background-color: #00984C;
+  color: #A23234;
+  border: 2px solid 	#FFFFFF; /* red */
+  transition-duration: 0.4s;
+    
+}
+
+#talento:hover{
+
+  background-color:	#A23234; /* salmon*/
+  color: white;
+  
+}
+
+#pesquisa{
+
+  border-radius: 12px;
+  padding: 10px 24px;
+  font-size: 12px;
+  font: normal 2px/20px sans-serif;
+  position: absolute;
+  text-align: center;
+  top: 140px;
+  left: 410px;  
+  width: 350px;  
+  background-color: #00984C;
+  color: #A23234;
+  border: 2px solid 	#FFFFFF; /* red */
+  transition-duration: 0.4s;
+    
+}
+
+#pesquisa:hover{
+
+  background-color:	#A23234; /* salmon*/
+  color: white;
+  
+}
+
+/*Acaba Aqui*/
+/*  ---//--- */
+/*SubPagina 2 Enfermagem*/
+
+/*Botão do Indicador de Vigilância*/
+
+#vigi{
+
+  border-radius: 12px;
+  padding: 10px 24px;
+  font-size: 12px;
+  font: normal 2px/20px sans-serif;
+  position: absolute;
+  text-align: center;
+  top: 30px;
+  left: 30px;  
+  width: 350px;  
+  background-color: #00984C;
+  color: #A23234;
+  border: 2px solid 	#FFFFFF; /* red */
+  transition-duration: 0.4s;
+
+}
+
+#vigi:hover{
+
+  background-color:	#A23234; /* salmon*/
+  color: white; 
+
+}
+
+/*Botão de Indicador da Vacina*/
+
+#vacina {
+
+  border-radius: 12px;
+  padding: 10px 24px;
+  font-size: 12px;
+  font: normal 2px/20px sans-serif;
+  position: absolute;
+  text-align: center;
+  top: 140px;
+  left: 410px;   
+  width: 350px;  
+  background-color: #00984C;
+  color: #A23234;
+  border: 2px solid 	#FFFFFF; /* red */
+  transition-duration: 0.4s;
+
+}
+
+#vacina:hover {
+
+  background-color:	#A23234; /* salmon*/
+  color: white; 
+
+}
+
+/*Botão de Indicador do PICS*/
+
+#pics {
+
+  border-radius: 12px;
+  padding: 10px 24px;
+  font-size: 12px;
+  font: normal 2px/20px sans-serif;
+  position: absolute;
+  text-align: center;
+  top: 85px;
+  left: 220px;   
+  width: 350px;  
+  background-color: #00984C;
+  color: #A23234;
+  border: 2px solid 	#FFFFFF; /* red */
+  transition-duration: 0.4s;
+
+}
+
+#pics:hover {
+
+  background-color:	#A23234; /* salmon*/
+  color: white; 
+
+}
+
+
+/*Acaba Aqui*/
+/*  ---//--- */
+/*SubPagina 3 Farmacia*/
+
+/*Botão do Indicador de Controle de Produção*/
+
+#controlefarmacia{
+
+  border-radius: 12px;
+  padding: 10px 24px;
+  font-size: 12px;
+  font: normal 2px/20px sans-serif;
+  position: absolute;
+  text-align: center;
+  top: 95px;
+  left: 410px;  
+  width: 350px;  
+  background-color: #00984C;
+  color: #A23234;
+  border: 2px solid 	#FFFFFF; /* red */
+  transition-duration: 0.4s;
+
+}
+
+#controlefarmacia:hover{
+
+  background-color:	#A23234; /* salmon*/
+  color: white; 
+
+}
+
+/*Botão do Indicador de Estoque de Farmacia*/
+
+#estoquefarmacia{
+
+  border-radius: 12px;
+  padding: 10px 24px;
+  font-size: 12px;
+  font: normal 2px/20px sans-serif;
+  position: absolute;
+  text-align: center;
+  top: 95px;
+  left: 30px;  
+  width: 350px;  
+  background-color: #00984C;
+  color: #A23234;
+  border: 2px solid 	#FFFFFF; /* red */
+  transition-duration: 0.4s;
+
+}
+
+#estoquefarmacia:hover {
+
+  background-color:	#A23234; /* salmon*/
+  color: white; 
+
+}
+
+/*Botão do Indicador de Absenteismo*/
+
+#agenda{
+
+  border-radius: 12px;
+  padding: 10px 24px;
+  font-size: 12px;
+  font: normal 2px/20px sans-serif;
+  position: absolute;
+  text-align: center;
+  top: 30px;
+  left: 30px;  
+  width: 350px;  
+  background-color: #00984C;
+  color: #A23234;
+  border: 2px solid 	#FFFFFF; /* red */
+  transition-duration: 0.4s;
+
+}
+
+#agenda:hover {
+
+  background-color:	#A23234; /* salmon*/
+  color: white; 
+
+}
+
+/*Botão do Indicador de Abastecimento*/
+
+#abastecimento{
+
+  border-radius: 12px;
+  padding: 10px 24px;
+  font-size: 12px;
+  font: normal 2px/20px sans-serif;
+  position: absolute;
+  text-align: center;
+  top: 30px;
+  left: 410px;  
+  width: 350px;  
+  background-color: #00984C;
+  color: #A23234;
+  border: 2px solid 	#FFFFFF; /* red */
+  transition-duration: 0.4s;
+
+}
+
+#abastecimento:hover {
+
+  background-color:	#A23234; /* salmon*/
+  color: white; 
+
+}
+
+#receitas{
+
+  border-radius: 12px;
+  padding: 10px 24px;
+  font-size: 12px;
+  font: normal 2px/20px sans-serif;
+  position: absolute;
+  text-align: center;
+  top: 160px;
+  left: 220px;  
+  width: 350px;  
+  background-color: #00984C;
+  color: #A23234;
+  border: 2px solid 	#FFFFFF; /* red */
+  transition-duration: 0.4s;
+
+}
+
+#receitas:hover {
+
+  background-color:	#A23234; /* salmon*/
+  color: white; 
+
+}
+
+/*Acaba Aqui*/
+/*  ---//--- */
+/*SubPagina 3 Odonto*/
+
+/*Botão do Indicador de Tratamentos Finalizados*/
+
+#tratamento{
+
+  border-radius: 12px;
+  padding: 10px 24px;
+  font-size: 12px;
+  font: normal 2px/20px sans-serif;
+  position: absolute;
+  text-align: center;
+  top: 30px;
+  left: 30px;  
+  width: 350px;  
+  background-color: #00984C;
+  color: #A23234;
+  border: 2px solid 	#FFFFFF; /* red */
+  transition-duration: 0.4s;
+
+}
+
+#tratamento:hover{
+
+  background-color:	#A23234; /* salmon*/
+  color: white; 
+
+}
+
+/*Botão do Indicador de Proteses Entregues*/
+
+#protese{
+
+  border-radius: 12px;
+  padding: 10px 24px;
+  font-size: 12px;
+  font: normal 2px/20px sans-serif;
+  position: absolute;
+  text-align: center;
+  top: 30px;
+  left: 410px;  
+  width: 350px;  
+  background-color: #00984C;
+  color: #A23234;
+  border: 2px solid 	#FFFFFF; /* red */
+  transition-duration: 0.4s;
+
+}
+
+#protese:hover{
+
+  background-color:	#A23234; /* salmon*/
+  color: white; 
+
+}
+
+/*Acaba Aqui*/
+/*  ---//--- */
+/*SubPagina 3 Saude Mental*/
+
+/*Botão do Indicador de Saúde Mental Especializada*/
+
+#saudeesp{
+
+  border-radius: 12px;
+  padding: 10px 24px;
+  font-size: 12px;
+  font: normal 2px/20px sans-serif;
+  position: absolute;
+  text-align: center;
+  top: 95px;
+  left: 30px;  
+  width: 350px;  
+  background-color: #00984C;
+  color: #A23234;
+  border: 2px solid 	#FFFFFF; /* red */
+  transition-duration: 0.4s;
+
+}
+
+#saudeesp:hover{
+
+  background-color:	#A23234; /* salmon*/
+  color: white; 
+
+}
+
+/*Botão do Indicador de Saúde Mental Urgência e Emergência*/
+
+#saudeurgeemer{
+
+  border-radius: 12px;
+  padding: 10px 24px;
+  font-size: 12px;
+  font: normal 2px/20px sans-serif;
+  position: absolute;
+  text-align: center;
+  top: 95px;
+  left: 410px;  
+  width: 350px;  
+  background-color: #00984C;
+  color: #A23234;
+  border: 2px solid 	#FFFFFF; /* red */
+  transition-duration: 0.4s;
+
+}
+
+#saudeurgeemer:hover{
+
+  background-color:	#A23234; /* salmon*/
+  color: white; 
+
+}
+
+#cracolandia{
+
+  border-radius: 12px;
+  padding: 10px 24px;
+  font-size: 12px;
+  font: normal 2px/20px sans-serif;
+  position: absolute;
+  text-align: center;
+  top: 30px;
+  left: 410px;  
+  width: 350px;  
+  background-color: #00984C;
+  color: #A23234;
+  border: 2px solid 	#FFFFFF; /* red */
+  transition-duration: 0.4s;
+
+}
+
+#cracolandia:hover{
+
+  background-color:	#A23234; /* salmon*/
+  color: white; 
+
+}
+
+#monitoramento2{
+
+  border-radius: 12px;
+  padding: 10px 24px;
+  font-size: 12px;
+  font: normal 2px/20px sans-serif;
+  position: absolute;
+  text-align: center;
+  top: 30px;
+  left: 30px;  
+  width: 350px;  
+  background-color: #00984C;
+  color: #A23234;
+  border: 2px solid 	#FFFFFF; /* red */
+  transition-duration: 0.4s;
+
+}
+
+#monitoramento2:hover{
+
+  background-color:	#A23234; /* salmon*/
+  color: white; 
+
+}
+
+/*Acaba Aqui*/
+/*  ---//--- */
+/*SubPagina 3 UBS ESF / Mista / AMA 12h */
+
+/*Botão do Indicador de Assistencial AMA's*/
+
+#ama{
+
+  border-radius: 12px;
+  padding: 10px 24px;
+  font-size: 12px;
+  font: normal 2px/20px sans-serif;
+  position: absolute;
+  text-align: center;
+  top: 30px;
+  left: 410px;  
+  width: 350px;  
+  background-color: #00984C;
+  color: #A23234;
+  border: 2px solid 	#FFFFFF; /* red */
+  transition-duration: 0.4s;
+    
+}
+
+#ama:hover{
+
+  background-color:	#A23234; /* salmon*/
+  color: white;
+  
+}
+
+/*Botão do Indicador de Assistencial AMA's*/
+
+#absenteismo2{
+
+  border-radius: 12px;
+  padding: 10px 24px;
+  font-size: 12px;
+  font: normal 2px/20px sans-serif;
+  position: absolute;
+  text-align: center;
+  top: 30px;
+  left: 30px;  
+  width: 350px;  
+  background-color: #00984C;
+  color: #A23234;
+  border: 2px solid 	#FFFFFF; /* red */
+  transition-duration: 0.4s;
+    
+}
+
+#absenteismo2:hover{
+
+  background-color:	#A23234; /* salmon*/
+  color: white;
+  
+}
+
+/*Botão de Indicador de Rede Cegonha*/
+
+#cegonha1 {
+  
+  border-radius: 12px;
+  padding: 10px 24px;
+  font-size: 12px;
+  font: normal 2px/20px sans-serif;
+  position: absolute;
+  text-align: center;
+  top: 90px;
+  left: 410px; 
+  width: 350px;  
+  background-color: #00984C;
+  color: #A23234;
+  border: 2px solid 	#FFFFFF; /* red */
+  transition-duration: 0.4s;
+
+}
+
+#cegonha1:hover {
+
+  background-color:	#A23234; /* salmon*/
+  color: white; 
+
+}
+
+/*Botão de Indicador do Controle de Plantão*/
+
+#tipo-2{
+
+  border-radius: 12px;
+  padding: 10px 24px;
+  font-size: 12px;
+  font: normal 2px/20px sans-serif;
+  position: absolute;
+  text-align: center;
+  top: 90px;
+  left: 30px;  
+  width: 350px;  
+  background-color: #00984C;
+  color: #A23234;
+  border: 2px solid 	#FFFFFF; /* red */
+  transition-duration: 0.4s;
+
+}
+
+#tipo-2:hover {
+
+background-color:	#A23234; /* salmon*/
+color: white; 
+
+}
+
+/*Acaba Aqui*/
+/*  ---//--- */
+/*SubPagina 3 Urgência e Emergência*/
+
+/*Botão do Indicador de Assistencial Urgência e Emergência*/
+
+#reourg{
+
+  border-radius: 12px;
+  padding: 10px 24px;
+  font-size: 12px;
+  font: normal 2px/20px sans-serif;
+  position: absolute;
+  text-align: center;
+  top: 30px;
+  left: 30px;  
+  width: 350px;  
+  background-color: #00984C;
+  color: #A23234;
+  border: 2px solid 	#FFFFFF; /* red */
+  transition-duration: 0.4s;
+    
+}
+
+#reourg:hover{
+
+  background-color:	#A23234; /* salmon*/
+  color: white;
+  
+}
+
+/*Botão de Indicador do Controle de Plantão*/
+
+#tipo--2{
+
+  border-radius: 12px;
+  padding: 10px 24px;
+  font-size: 12px;
+  font: normal 2px/20px sans-serif;
+  position: absolute;
+  text-align: center;
+  top: 105px;
+  left: 220px;  
+  width: 350px;  
+  background-color: #00984C;
+  color: #A23234;
+  border: 2px solid 	#FFFFFF; /* red */
+  transition-duration: 0.4s;
+
+}
+
+#tipo--2:hover {
+
+background-color:	#A23234; /* salmon*/
+color: white; 
+
+}
+
+/*Botão do Indicador de Assistencial Ambulância*/
+
+#amb{
+
+  border-radius: 12px;
+  padding: 10px 24px;
+  font-size: 12px;
+  font: normal 2px/20px sans-serif;
+  position: absolute;
+  text-align: center;
+  top: 160px;
+  left: 410px;  
+  width: 350px;  
+  background-color: #00984C;
+  color: #A23234;
+  border: 2px solid 	#FFFFFF; /* red */
+  transition-duration: 0.4s;
+    
+}
+
+#amb:hover{
+
+  background-color:	#A23234; /* salmon*/
+  color: white;
+  
+}
+
+/*Acaba Aqui*/
+/*  ---//--- */
